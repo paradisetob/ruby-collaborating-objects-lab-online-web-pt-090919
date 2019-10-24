@@ -8,3 +8,4 @@ class Song
   end
 
 end
+  Artist.class_variable_set(:@@all, [])
