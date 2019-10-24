@@ -8,3 +8,4 @@ class Artist
   # other methods
 
 end
+  Artist.class_variable_set(:@@all, [])
